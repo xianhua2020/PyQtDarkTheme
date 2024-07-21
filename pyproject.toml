@@ -25,10 +25,11 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.7,<3.12"
+python = ">=3.7,<3.13"
 darkdetect = "^0.7.1"
 
 [tool.poetry.group.dev.dependencies]
